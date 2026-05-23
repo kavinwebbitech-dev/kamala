@@ -289,16 +289,15 @@
 
         <div class="container max-w-[1200px] mx-auto px-6 relative z-10">
 
-            {{-- Featured Image --}}
             <div
-                class="w-full h-[400px] md:h-[600px] rounded-[2.5rem] overflow-hidden shadow-soft mb-16 reveal-up border border-slate-100">
-                <img src="{{ asset($blog->image) }}" alt="{{ $blog->title }}" class="w-full h-full object-cover">
+                class="w-full h-[300px] md:h-[450px] rounded-[2.5rem] overflow-hidden shadow-soft mb-16 reveal-up border border-slate-100">
+                <img src="{{ asset($blog->image) }}" alt="{{ $blog->title }}" class="w-full h-[300px] md:h-[450px] object-inherit object-center">
             </div>
 
             <div class="grid lg:grid-cols-12 gap-12 lg:gap-16 items-start">
 
                 {{-- Main Content --}}
-                <div class="lg:col-span-8  ">
+                <div class="lg:col-span-8">
 
                     <div class="prose-custom bg-white p-8 md:p-12 rounded-[2rem] shadow-sm border border-slate-100">
 

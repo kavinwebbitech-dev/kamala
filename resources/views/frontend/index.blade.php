@@ -251,7 +251,8 @@
                         </div>
                     </div>
 
-                    <div class="group w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.35rem)] bg-white rounded-[2rem] p-3 shadow-soft hover:shadow-2xl transition-all duration-500 border border-slate-100 hover:border-transparent relative overflow-hidden">
+                    <div
+                        class="group w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.35rem)] bg-white rounded-[2rem] p-3 shadow-soft hover:shadow-2xl transition-all duration-500 border border-slate-100 hover:border-transparent relative overflow-hidden">
 
                         <div
                             class="relative bg-white rounded-[1.8rem] p-8 lg:p-10 h-full flex flex-col items-start text-left">
@@ -1329,8 +1330,9 @@
                                 </div>
                                 <div>
                                     <h4 class="font-bold text-brand-dark text-lg mb-1">Headquarters</h4>
-                                    <p class="text-brand-gray text-sm">124 Innovation Drive, Tech District<br>San
-                                        Francisco, CA 94103</p>
+                                    <p class="text-brand-gray text-sm">13/1B, Brooke Bond Layout,<br>
+                                        Krishnasamy Mudaliar Road,<br>
+                                        Coimbatore – 641002</p>
                                 </div>
                             </div>
 
@@ -1339,12 +1341,19 @@
                                 class="bg-white p-6 rounded-2xl border border-slate-100 flex items-center gap-6 shadow-sm hover:shadow-md transition-shadow">
                                 <div
                                     class="w-16 h-16 bg-[#F3F0FF] rounded-full flex items-center justify-center text-brand-primary shrink-0">
-                                    <i data-lucide="mail" class="w-7 h-7"></i>
+
+                                    <i data-lucide="phone-call" class="w-7 h-7"></i>
                                 </div>
                                 <div>
-                                    <h4 class="font-bold text-brand-dark text-lg mb-1">Email Us</h4>
-                                    <a href="mailto:hello@kamalatech.com"
-                                        class="text-brand-gray text-sm hover:text-brand-primary transition-colors">hello@kamalatech.com</a>
+                                    <h4 class="text-lg font-bold text-brand-dark mb-1">Contact Numbers</h4>
+                                    <div class="space-y-0.5">
+                                        <a href="tel:+919789239293"
+                                            class="block text-brand-gray text-[14px] hover:text-brand-secondary transition-colors font-semibold">Sales:
+                                            +91 97892 39293</a>
+                                        <a href="tel:+918124249066"
+                                            class="block text-brand-gray text-[14px] hover:text-brand-secondary transition-colors font-semibold">Job:
+                                            +91 81242 49066</a>
+                                    </div>
                                 </div>
                             </div>
 
@@ -1353,11 +1362,16 @@
                                 class="bg-white p-6 rounded-2xl border border-slate-100 flex items-center gap-6 shadow-sm hover:shadow-md transition-shadow">
                                 <div
                                     class="w-16 h-16 bg-[#F3F0FF] rounded-full flex items-center justify-center text-brand-primary shrink-0">
-                                    <i data-lucide="phone" class="w-7 h-7"></i>
+                                    <i data-lucide="mail" class="w-5 h-5"></i>
                                 </div>
                                 <div>
-                                    <h4 class="font-bold text-brand-dark text-lg mb-1">Call Us</h4>
-                                    <p class="text-brand-gray text-sm">+1 (800) 555-0199</p>
+                                    <h4 class="text-lg font-bold text-brand-dark mb-1">Email Addresses</h4>
+                                    <div class="space-y-0.5">
+                                        <a href="mailto:info@kamalatech.com"
+                                            class="block text-brand-gray text-[14px] hover:text-[#0A7EFA] transition-colors font-semibold">info@kamalatech.com</a>
+                                        <a href="mailto:support@kamalatech.com"
+                                            class="block text-brand-gray text-[14px] hover:text-[#0A7EFA] transition-colors font-semibold">support@kamalatech.com</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -1367,42 +1381,8 @@
                     <div class="relative reveal-right">
                         <div class="bg-white p-6 md:p-6 rounded-[2rem] shadow-soft border border-slate-500 relative z-10">
                             <h3 class="text-3xl font-bold text-brand-dark mb-10">Send a Message</h3>
-                            {{-- <form class="space-y-6">
-                                <div class="grid grid-cols-2 gap-6">
-                                    <div>
-                                        <input type="text"
-                                            class="w-full bg-[#F8F9FA] border border-transparent focus:bg-white focus:border-brand-primary focus:ring-2 focus:ring-brand-primary/10 rounded-xl px-5 py-4 text-sm text-brand-dark outline-none transition-all placeholder:text-slate-400"
-                                            placeholder="First Name">
-                                    </div>
-                                    <div>
-                                        <input type="text"
-                                            class="w-full bg-[#F8F9FA] border border-transparent focus:bg-white focus:border-brand-primary focus:ring-2 focus:ring-brand-primary/10 rounded-xl px-5 py-4 text-sm text-brand-dark outline-none transition-all placeholder:text-slate-400"
-                                            placeholder="Last Name">
-                                    </div>
-                                </div>
-                                <div>
-                                    <input type="email"
-                                        class="w-full bg-[#F8F9FA] border border-transparent focus:bg-white focus:border-brand-primary focus:ring-2 focus:ring-brand-primary/10 rounded-xl px-5 py-4 text-sm text-brand-dark outline-none transition-all placeholder:text-slate-400"
-                                        placeholder="Email Address">
-                                </div>
-                                <div>
-                                    <textarea rows="4"
-                                        class="w-full bg-[#F8F9FA] border border-transparent focus:bg-white focus:border-brand-primary focus:ring-2 focus:ring-brand-primary/10 rounded-xl px-5 py-4 text-sm text-brand-dark outline-none transition-all placeholder:text-slate-400 resize-none"
-                                        placeholder="Write your message..."></textarea>
-                                </div>
 
-                                <div class="flex items-center gap-3">
-                                    <button type="button"
-                                        class="px-8 py-4 text-sm font-bold text-white bg-brand-primary hover:bg-[#5b3ce0] rounded-full transition-all flex items-center justify-center">
-                                        SEND MESSAGE
-                                    </button>
-                                    <button type="button"
-                                        class="w-14 h-14 bg-brand-primary hover:bg-[#5b3ce0] text-white rounded-full flex items-center justify-center transition-all">
-                                        <i data-lucide="arrow-up-right" class="w-6 h-6"></i>
-                                    </button>
-                                </div>
-                            </form> --}}
-                            <form id="contact-form" class="space-y-4">
+                            <form id="contact-form" class="space-y-6">
 
                                 <!-- Name + Phone -->
                                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -1438,11 +1418,23 @@
 
                                 <!-- Subject -->
                                 <div>
-                                    <input type="text" name="subject"
-                                        class="w-full bg-[#F8F9FA] border border-slate-400 focus:bg-white focus:border-brand-primary focus:ring-2 focus:ring-brand-primary/10 rounded-xl px-5 py-4 text-sm text-brand-dark outline-none transition-all placeholder:text-slate-400"
-                                        placeholder="Service">
+                                    <div>
+                                        <select name="subject"
+                                            class="w-full bg-[#F8F9FA] border border-slate-400 focus:bg-white focus:border-brand-primary focus:ring-2 focus:ring-brand-primary/10 rounded-xl px-5 py-4 text-sm text-brand-dark outline-none transition-all placeholder:text-slate-400"
+                                            placeholder="Service">
+                                            <option value="" selected disabled>Select a Service</option>
+                                            <option value="Search Engine Optimization">Search Engine Optimization</option>
+                                            <option value="Social Media Marketing">Social Media Marketing</option>
+                                            <option value="Digital Marketing">Digital Marketing</option>
+                                            <option value="Meta Ads Services">Meta Ads Services</option>
+                                            <option value="Google Ads Services">Google Ads Services</option>
+                                        </select>
 
-                                    <span class="error-subject text-red-500 text-xs mt-1 block"></span>
+                                        <i data-lucide="chevron-down"
+                                            class="absolute right-4 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400 pointer-events-none"></i>
+                                    </div>
+
+                                    <span class="error-subject text-red-500 text-xs"></span>
                                 </div>
 
                                 <!-- Message -->
@@ -1487,7 +1479,7 @@
                                     <button type="submit"
                                         class="px-8 py-4 text-sm font-bold text-white bg-brand-primary hover:bg-[#5b3ce0] rounded-full transition-all flex items-center justify-center">
                                         SEND MESSAGE
-                                    </button> 
+                                    </button>
 
                                 </div>
 

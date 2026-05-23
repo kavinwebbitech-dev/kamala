@@ -65,7 +65,7 @@
                 <table class="table table-bordered table-striped no-wrap" id="blog-table" style="min-width: 1000px;">
                     <thead class="text-nowrap">
                         <tr>
-                            <th>ID</th>
+                            <th>S.No</th>
                             <th>Title</th>
                             <th>Image</th>
                             <th>Url</th>

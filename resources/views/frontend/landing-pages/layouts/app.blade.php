@@ -28,7 +28,6 @@
         gtag('config', 'G-HXLXG9GLYB');
     </script>
 
-    <!-- Open Graph (SEO + Social) -->
     <meta property="og:title" content="@yield('meta_title')">
     <meta property="og:type" content="website" />
     <meta property="og:description" content="@yield('meta_description', 'Default website description')">

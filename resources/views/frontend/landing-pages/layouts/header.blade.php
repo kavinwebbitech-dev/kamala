@@ -14,7 +14,7 @@
                  </a>
              </div>
              <a href="#strategy"
-                 class="text-[15px] font-bold text-[#1A1A2C] hover:text-[#6D4AFF] transition-colors py-4">Strategy</a>
+                 class="text-[15px] font-bold text-[#1A1A2C] hover:text-[#6D4AFF] transition-colors py-4">About</a>
              <a href="#faq"
                  class="text-[15px] font-bold text-[#1A1A2C] hover:text-[#6D4AFF] transition-colors py-4">FAQ</a>
 

@@ -267,9 +267,9 @@
                                             <option value="" selected disabled>Select a Service</option>
                                             <option value="Search Engine Optimization">Search Engine Optimization</option>
                                             <option value="Social Media Marketing">Social Media Marketing</option>
-                                            <option value="Performance Advertising">Performance Advertising</option>
-                                            <option value="Web Development">Web Development</option>
-                                            <option value="Other Inquiry">Other Inquiry</option>
+                                            <option value="Digital Marketing">Digital Marketing</option>
+                                            <option value="Meta Ads Services">Meta Ads Services</option>
+                                            <option value="Google Ads Services">Google Ads Services</option>
 
                                         </select>
 

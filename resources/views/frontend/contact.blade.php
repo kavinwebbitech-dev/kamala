@@ -119,7 +119,7 @@
                             </div>
                         </div>
                     </div>
- 
+
                 </div>
 
                 <div class="lg:col-span-7 reveal-up relative">
@@ -128,7 +128,7 @@
                         class="absolute inset-0 bg-gradient-to-br from-brand-primary to-brand-secondary rounded-[2rem] blur-xl opacity-15 transform translate-y-2 translate-x-2 -z-10">
                     </div>
 
-                    <div class="bg-white rounded-[2rem] p-8 md:p-10 shadow-soft border border-slate-100 relative z-10">
+                    <div class="bg-white rounded-[2rem] p-8 md:p-10 shadow-soft border border-slate-400 relative z-10">
                         <div class="mb-6">
                             <h3 class="text-[26px] font-extrabold text-brand-dark mb-2 tracking-tight">Send Us a Message
                             </h3>
@@ -146,7 +146,7 @@
                                     </label>
 
                                     <input type="text" name="name" placeholder="John Doe"
-                                        class="w-full bg-[#F8F9FA] border border-transparent focus:bg-white focus:border-brand-primary focus:ring-2 focus:ring-brand-primary/10 rounded-xl px-5 py-3 text-[14px] text-brand-dark outline-none transition-all placeholder:text-slate-400">
+                                        class="w-full bg-[#F8F9FA] border border-slate-400 focus:bg-white focus:border-brand-primary focus:ring-2 focus:ring-brand-primary/10 rounded-xl px-5 py-3 text-[14px] text-brand-dark outline-none transition-all placeholder:text-slate-400">
 
                                     <span class="error-name text-red-500 text-xs"></span>
                                 </div>
@@ -158,7 +158,7 @@
                                     </label>
 
                                     <input type="tel" name="phone" placeholder="+91 9876543210"
-                                        class="w-full bg-[#F8F9FA] border border-transparent focus:bg-white focus:border-brand-primary focus:ring-2 focus:ring-brand-primary/10 rounded-xl px-5 py-3 text-[14px] text-brand-dark outline-none transition-all placeholder:text-slate-400">
+                                        class="w-full bg-[#F8F9FA] border border-slate-400 focus:bg-white focus:border-brand-primary focus:ring-2 focus:ring-brand-primary/10 rounded-xl px-5 py-3 text-[14px] text-brand-dark outline-none transition-all placeholder:text-slate-400">
 
                                     <span class="error-phone text-red-500 text-xs"></span>
                                 </div>
@@ -171,7 +171,7 @@
                                 </label>
 
                                 <input type="email" name="email" placeholder="john@company.com"
-                                    class="w-full bg-[#F8F9FA] border border-transparent focus:bg-white focus:border-brand-primary focus:ring-2 focus:ring-brand-primary/10 rounded-xl px-5 py-3 text-[14px] text-brand-dark outline-none transition-all placeholder:text-slate-400">
+                                    class="w-full bg-[#F8F9FA] border border-slate-400 focus:bg-white focus:border-brand-primary focus:ring-2 focus:ring-brand-primary/10 rounded-xl px-5 py-3 text-[14px] text-brand-dark outline-none transition-all placeholder:text-slate-400">
 
                                 <span class="error-email text-red-500 text-xs"></span>
                             </div>
@@ -184,14 +184,15 @@
 
                                 <div class="relative">
                                     <select name="subject"
-                                        class="w-full bg-[#F8F9FA] border border-transparent focus:bg-white focus:border-brand-primary focus:ring-2 focus:ring-brand-primary/10 rounded-xl px-5 py-3 text-[14px] text-brand-dark outline-none transition-all appearance-none cursor-pointer">
+                                        class="w-full bg-[#F8F9FA] border border-slate-400 focus:bg-white focus:border-brand-primary focus:ring-2 focus:ring-brand-primary/10 rounded-xl px-5 py-3 text-[14px] text-brand-dark outline-none transition-all appearance-none cursor-pointer">
 
                                         <option value="" selected disabled>Select a Service</option>
                                         <option value="Search Engine Optimization">Search Engine Optimization</option>
                                         <option value="Social Media Marketing">Social Media Marketing</option>
-                                        <option value="Performance Advertising">Performance Advertising</option>
-                                        <option value="Web Development">Web Development</option>
-                                        <option value="Other Inquiry">Other Inquiry</option>
+                                        <option value="Digital Marketing">Digital Marketing</option>
+                                        <option value="Meta Ads Services">Meta Ads Services</option>
+                                        <option value="Google Ads Services">Google Ads Services</option>
+
                                     </select>
 
                                     <i data-lucide="chevron-down"
@@ -208,7 +209,7 @@
                                 </label>
 
                                 <textarea rows="4" name="message" placeholder="Tell us about your project requirements..."
-                                    class="w-full bg-[#F8F9FA] border border-transparent focus:bg-white focus:border-brand-primary focus:ring-2 focus:ring-brand-primary/10 rounded-xl px-5 py-3 text-[14px] text-brand-dark outline-none transition-all placeholder:text-slate-400 resize-none"></textarea>
+                                    class="w-full bg-[#F8F9FA] border border-slate-400 focus:bg-white focus:border-brand-primary focus:ring-2 focus:ring-brand-primary/10 rounded-xl px-5 py-3 text-[14px] text-brand-dark outline-none transition-all placeholder:text-slate-400 resize-none"></textarea>
 
                                 <span class="error-message text-red-500 text-xs"></span>
                             </div>
@@ -222,7 +223,7 @@
                                     </label>
 
                                     <input type="number" name="captcha" placeholder="Enter Answer"
-                                        class="w-full bg-[#F8F9FA] border border-transparent focus:bg-white focus:border-brand-primary focus:ring-2 focus:ring-brand-primary/10 rounded-xl px-5 py-3 text-[14px] text-brand-dark outline-none transition-all placeholder:text-slate-400">
+                                        class="w-full bg-[#F8F9FA] border border-slate-400 focus:bg-white focus:border-brand-primary focus:ring-2 focus:ring-brand-primary/10 rounded-xl px-5 py-3 text-[14px] text-brand-dark outline-none transition-all placeholder:text-slate-400">
 
                                     <span class="error-captcha text-red-500 text-xs"></span>
                                 </div>
@@ -234,7 +235,7 @@
 
                                     <div class="flex items-center gap-2">
                                         <input type="text" id="math-question" readonly
-                                            class="w-full bg-[#F8F9FA] border border-transparent rounded-xl px-5 py-3 text-[14px] text-black outline-none">
+                                            class="w-full bg-[#F8F9FA] border border-slate-400 rounded-xl px-5 py-3 text-[14px] text-black outline-none">
 
                                         <button type="button" onclick="loadCaptcha()"
                                             class="px-4 py-3 rounded-xl bg-red-500 hover:bg-red-600 text-white transition">

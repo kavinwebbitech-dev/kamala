@@ -69,6 +69,7 @@ resources/views/admin/portfolio-category/index.blade.php
                 <thead>
 
                     <tr>
+                        <th>S.No</th>      
 
                         <th>Name</th>
 
@@ -112,6 +113,12 @@ $(function () {
 
         columns: [
 
+            {
+                data: 'DT_RowIndex',
+                name: 'DT_RowIndex',
+                orderable: false,
+                searchable: false
+            },
             {
                 data: 'name',
                 name: 'name'

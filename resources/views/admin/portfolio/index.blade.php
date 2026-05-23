@@ -75,7 +75,8 @@ resources/views/admin/portfolio/index.blade.php
 
                 <thead>
 
-                    <tr>
+                    <tr> 
+                        <th>S.No</th>
 
                         <th>Image</th>
 
@@ -120,6 +121,12 @@ $(function () {
         ajax: '{{ route('portfolio.index') }}',
 
         columns: [
+             {
+                data: 'DT_RowIndex',
+                name: 'DT_RowIndex',
+                orderable: false,
+                searchable: false
+            },
 
             {
                 data: 'image',
